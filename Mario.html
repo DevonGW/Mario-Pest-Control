@@ -2,11 +2,47 @@
 <html>
 <head>
     <title>Mario's Pest Control</title>
+    <link rel = "stylesheet" type = "text/css" href = Mario.css>
 </head>
 
 <body>
+    
+    <h1> Mario's Pest Control</h1>
+
+    <div id = "baddies"> 
+    <ul>
+        <li> Goombas: 5 coins</li>
+        <img src = "kindpng_70281.png" alt ="goomba_Icon" style = "width:128px; height: 128px;">
+        
+        <li> Bob-ombs: 7 coins </li>
+        <img src ="kindpng_181098.png" alt = "Bob-ombs"style = "width:128px; height: 128px;" >
+        <li> Cheep-cheeps: 11 coins </li>
+        <img src = "kindpng_1661298.png"alt = "cheep-cheeps" style = "width:128px; height: 128px;">
+    </ul>
+
+    </div>
+
+ <div id = "Input">
+    <h1> Cost Estimation </h1>
+    <input type="text" id="n1"/><br/><br/>
+    <input type="text" id="n2"/><br/><br/>
+    
+    <select id="operators">
+        <option value="+">+</option>
+    </select>
+    
+    <button onclick="calc();">=</button>
+    <input type="text" id="result"/>
+    </div>
+
+<footer>
+    <h3> Contact Us</h3>
+    <p> Nintendo, 2500 Mario Ave Chicago, IL 60647</p>
+    <p> mario64@gmail.com</p>
+    <p><a href = "#mario.html">mariospestcontrol.com</a></p>
+    </footer>
 
 
-
+<script src = "Mario.js"></script>
 </body>
 </html>
